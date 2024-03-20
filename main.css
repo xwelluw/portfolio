@@ -1,0 +1,306 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+p{
+    font-family:comic sans ms;
+    font-size:medium ;
+}
+h1{
+    font-family:comic sans ms;
+}
+
+.wrapper {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    background-color: black;
+
+    .nik {
+    
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 50px;
+        margin-right: auto;
+        justify-content: start;
+
+    }
+
+    li{
+     display: inline-block;
+     justify-content: end;
+     margin-right: 15px;
+     
+    
+
+    }
+}
+.one {
+    display: flex;
+    margin-top: 50px;
+    }
+.wrapper2 {
+    max-width: 500px;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+
+    button {
+        background-color: antiquewhite;
+        border-radius: 10px;
+        font-family: comic sans ms;
+        font-size:larger;
+        cursor: pointer;
+    }
+    
+}
+.wrapper3 {
+    max-width: 500px;
+    margin-left: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.wrapper3 img {
+    border-radius: 200px;
+}
+
+.container_section2{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    gap: 50px;
+
+}
+.more{
+    background-image: url("https://sopranoclub.ru/images/120-kartinok-s-krasivym-morem/file60145.jpeg");
+}
+h3 {
+    font-family:comic sans ms;
+    text-align:center;
+}
+.htmlp{
+    margin-bottom:100px ;
+    background-color: bisque;
+    height: 300px;
+    width: 300px;
+    padding: 5px;
+   
+}
+.htmlp img{
+    width: 100%;
+    height: 100%;
+}
+.htmlp p {
+    background-color: darkblue;
+    text-align: center;
+    position: relative;
+    bottom: 42px;
+
+}
+.cssp{
+    margin-bottom:100px ;
+    background-color: darkblue;
+    height: 300px;
+    width: 300px;
+    padding: 5px;
+}
+.cssp img{
+    width: 100%;
+    height: 100%;
+}
+.cssp p {
+    background-color: bisque;
+    text-align: center;
+    position: relative;
+    bottom: 42px;
+}
+.jsp{
+    margin-bottom:100px ;
+    background-color: darkblue;
+    height: 300px;
+    width: 300px;
+    padding: 5px;
+}
+.jsp img{
+    width: 100%;
+    height: 100%;
+}
+.jsp p {
+    background-color: bisque;
+    text-align: center;
+    position: relative;
+    bottom: 42px;
+}
+.works{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+
+}
+
+
+.works h1{
+text-align: center;
+}
+.work1t{
+    
+    display: inline-block;
+  transform: translate(15em, -13em);
+}
+.work1t h3{
+    text-align:end;
+}
+
+
+.work2 img{
+    position: relative; left: 600px;
+
+}
+
+.work2t{
+    display: inline-block;
+    transform: translate(-30em, -13em);
+}
+.work2t h3{
+    text-align:start;
+}
+
+
+.work3t{
+    display: inline-block;
+    transform: translate(8em, -13em);
+}
+.work3t h3{
+    text-align:end;
+}
+
+
+
+.container_section4 {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.zayavka {
+    background-color: antiquewhite;
+}
+.zayavka h1 {
+    text-align: center;
+    padding: 15px;
+}
+.ostavte{
+    background-color: white;
+    margin:0 auto ;
+    height: 300px;
+    width: 300px;
+    padding: 5px;
+}
+label {
+    display: block;
+    margin: 0.4rem 0;
+    
+}
+.your{
+    margin: 0.8rem 0;
+    color: antiquewhite;
+}
+
+.contacts{
+background-image: url(https://promotiger.ru/wp-content/uploads/2019/12/mobile-phone-advertising.png);
+}
+.container_section5{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    gap: 50px;
+
+}
+.gh{
+    margin-bottom:100px;
+    background-color: darkblue;
+    height: 300px;
+    width: 300px;
+    padding: 5px;
+}
+.gh p{
+text-align: center;
+font-size:xx-large;
+
+}
+.gh a{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    
+    border-radius: 10px;
+    font-size: xx-large;
+}
+.tg{
+    margin-bottom:100px;
+    background-color: antiquewhite;
+    height: 300px;
+    width: 300px;
+    padding: 5px;
+}
+.tg p{
+text-align: center;
+font-size:xx-large;
+
+}
+.tg a{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    
+    border-radius: 10px;
+    font-size: xx-large;
+}
+
+.tel{
+    margin-bottom:100px;
+    background-color: darkblue;
+    height: 300px;
+    width: 300px;
+    padding: 5px;
+}
+.tel p{
+text-align: center;
+font-size:xx-large;
+}
+.pcolor {
+    text-align: center;
+    font-size:xx-large;
+    background-color: white;
+    
+    border-radius: 10px;
+    
+
+}
+
+
+
